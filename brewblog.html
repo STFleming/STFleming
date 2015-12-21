@@ -9,107 +9,30 @@
 
     <link href="css1/bootstrap.min.css" rel="stylesheet">
     <link href="css1/cover.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
+    <script>
+    $(function(){
+      $("#includeHexNav").load("./hexnav.html");
+    });
+    </script>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
 
   <body>
 
-    <div class="site-wrapper">
-
-     <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-          <div class="masthead clearfix">
-            <div class="inner">
-            <!--  <ul class="nav masthead-nav">
-                <li class="active"><a href="#">Home</a></li>
-              </ul>-->
-            </div>
-          </div>
-
-          <div class="inner cover">
-	  <div class="icon_me">
-		<img src="images/glasses1.svg" height="90px" class="imagestyle2">
-	  </div>
-	  <div class="title_main"> 	
-            <h1 class="cover-heading">Shane T. Fleming</h1>
-            <p class="lead">
-				        PhD Student
-	    </p>		
-    	    </div>
-
-<div style="padding-left: 70px; width: 650px; margin-top: 40px;">
-  <!--  <div class="hex-row">
-        <div class="hex"><div class="top"></div><div class="middle"><images src="images/hexagon1.svg" class="imagestyle1" width=107px></div><div class="bottom"></div></div>
-        <div class="hex"><div class="top"></div><div class="middle"><images src="images/hexagon2.svg" class="imagestyle1" width=107px></div><div class="bottom"></div></div>
-        <div class="hex"><div class="top"></div><div class="middle"><images src="images/hexagon3.svg" class="imagestyle1" width=107px></div><div class="bottom"></div></div>
-    </div> --!>
-    <div class="hex-row">
-        <div class="hex"><div class="top"></div><div class="middle"><img src="images/greyhex.svg" class="imagestyle1" width=107px></div><div class="bottom"></div></div>
-
-        <div class="hex"><div class="top"></div><div class="middle">
-	<a href="https://github.com/STFleming"> <img src="images/github_hex.svg" class="imagestyle1" width=107px> </a></div>
-	<div class="bottom"></div></div>
-
-        <div class="hex"><div class="top"></div><div class="middle">
-	<a href="https://vimeo.com/user30140744"> <img src="images/vimeohex.svg" class="imagestyle1" width=107px> </a></div>
-	<div class="bottom"></div></div>
-        
-	<div class="hex"><div class="top"></div><div class="middle">
-	<a href="http://uk.linkedin.com/in/shanetfleming">
-		<img src="images/linkdinhex.svg" class="imagestyle1" width=107px></div><div class="bottom"></div>
-	</a></div>
-    </div>
-    <div class="hex-row even">
-        <div class="hex"><div class="top"></div><div class="middle">
-	  <a href="mailto:shane.fleming06@imperial.ac.uk">
-		<img src="images/emailhex.svg" class="imagestyle1" width=107px>
-	  </a>
-	</div><div class="bottom"></div></div>
-        
-    <div class="hex"><div class="top"></div><div class="middle">
-            <a href="./brewblog.html"><img src="images/brewing.svg" class="imagestyle1" width=107px></a></div>
-    <div class="bottom"></div></div>
-        <div class="hex"><div class="top"></div><div class="middle">
-	  <a href="http://scholar.google.co.uk/citations?user=vS3KZAIAAAAJ&hl=en">
-		<img src="images/googlescholarhex.svg" class="imagestyle1" width=107px>
-	  </a>
-	</div><div class="bottom"></div></div>
-        
-	<div class="hex"><div class="top"></div><div class="middle"><img src="images/greyhex.svg" class="imagestyle1" width=107px></div><div class="bottom"></div></div>
-        <div class="hex"><div class="top"></div><div class="middle"><img src="images/greenhex.svg" class="imagestyle1" width=107px></div><div class="bottom"></div></div>
-    </div>
-</div>
-
-
-          </div>
-	  </div>
-
-	
-          <div class="mastfoot">
-            <div class="inner">
-			Circuits and Systems Research Group, Imperial College London
-            </div>
-          </div>
-
+     <div class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-inner">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"> <img src="images/glasses1.svg" height="90px"> </a>
         </div>
-
-      </div>
-
+                <div id="includeHexNav"></div>
+        </div>
     </div>
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <script src="../../assets/js/docs.min.js"></script>
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+
   </body>
 </html>
 
